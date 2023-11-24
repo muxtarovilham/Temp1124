@@ -1,0 +1,447 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+* button {
+  cursor: pointer;
+}
+
+header {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 650px;
+  overflow: hidden;
+}
+header .img1 {
+  width: 100%;
+  height: 600px;
+}
+header .hdr {
+  width: 70%;
+  position: absolute;
+  top: 33%;
+  left: 14%;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+header .hdr img {
+  width: 100%;
+  height: 304px;
+}
+header .hdr h1 {
+  font-size: 55px;
+  color: white;
+}
+header .hdr p {
+  color: white;
+}
+header .hdr button {
+  width: 153px;
+  height: 44px;
+  border: none;
+  transition: background-color 0.4s ease;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+}
+header .hdr button:hover {
+  background-color: #8E90FF;
+  border: 1px solid white;
+  color: white;
+}
+header .n1 {
+  position: absolute;
+  top: 0%;
+  width: 80%;
+}
+header .n1 i {
+  font-size: 12px;
+}
+header .n1 .n11 {
+  justify-content: end;
+}
+header .n1 .n11 .a1 {
+  position: relative;
+}
+header .n1 .n11 .a1:hover + .drop2 {
+  position: absolute;
+  display: flex;
+}
+header .n1 .n11 .a1 {
+  position: relative;
+}
+header .n1 .n11 .a1:hover + .drop1 {
+  display: block;
+}
+header .n1 .n11 .a1:hover + .drop2 {
+  display: block;
+}
+header .n1 .n11 .drop2 {
+  width: 150px;
+  height: 120px;
+  position: absolute;
+  background-color: white;
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  display: none;
+}
+header .n1 .n11 .drop2 p {
+  transition: color 0.4s ease;
+  color: black;
+}
+header .n1 .n11 .drop2 p:hover {
+  color: rgb(0, 187, 255);
+}
+header .n1 .n11 .drop2:hover {
+  display: block;
+  cursor: pointer;
+}
+header .n1 .n11 .drop1 {
+  width: 150px;
+  height: 99px;
+  position: absolute;
+  background-color: white;
+  padding-top: 14px;
+  padding-left: 7px;
+  padding-right: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  display: none;
+}
+header .n1 .n11 .drop1:hover {
+  display: block;
+  color: rgb(0, 187, 255);
+  cursor: pointer;
+}
+header .n1 .n11 .drop1 p {
+  transition: color 0.4s ease;
+  color: black;
+}
+header .n1 .n11 .drop1 p:hover {
+  color: rgb(0, 187, 255);
+}
+header .n1 .n11 .drop1 p {
+  font-size: 14px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 66px;
+  padding-bottom: 21px;
+}
+main .colz {
+  width: 100%;
+}
+main .colz .col1 {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+main .colz .col1 h1 {
+  font-size: 21px;
+}
+main .colz .col1 p {
+  font-size: 14px;
+  color: gray;
+}
+main .colz .col1 button {
+  width: 155px;
+  height: 44px;
+  transition: background-color 0.4s ease;
+  background-color: transparent;
+  border: none;
+}
+main .colz .col1 button:hover {
+  background-color: rebeccapurple;
+  color: white;
+}
+main .clz {
+  width: 90%;
+  height: auto;
+}
+main .clz .sec2 {
+  width: 90%;
+}
+main .clz .sec2 img {
+  width: 100%;
+  height: auto;
+}
+main .cls {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 21px;
+}
+main .cls button {
+  width: 155px;
+  height: 44px;
+  border: none;
+  transition: background-color 0.4s ease;
+  background-color: rebeccapurple;
+  color: white;
+  font-weight: 600;
+}
+main .cls button:hover {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  border: 1px solid rebeccapurple;
+}
+main .zx img {
+  width: 100%;
+  height: 330px;
+}
+main .z1 .sec3 {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+main .z1 .sec3 span {
+  font-weight: 600;
+}
+main .z1 .sec3 p {
+  color: gray;
+}
+main .z1 .sec3 h6 {
+  color: rebeccapurple;
+}
+main .z1 .sec3 button {
+  width: 155px;
+  height: 44px;
+  border: none;
+  transition: background-color 0.4s ease;
+  background-color: rebeccapurple;
+  color: white;
+  font-weight: 600;
+}
+main .z1 .sec3 button:hover {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  border: 1px solid rebeccapurple;
+}
+main .sec5 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+main .sec5 img {
+  width: 100%;
+  height: 555px;
+}
+main .sec5 .sec55 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0%;
+}
+main .sec5 .sec55 img {
+  width: 100%;
+}
+main .sec5 .sec55 .h11 {
+  color: white;
+}
+main .sec5 .sec55 p {
+  color: white;
+}
+main .sec5 .sec55 .zz {
+  width: 100%;
+  height: 197px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .sec5 .sec55 .zz .secz {
+  padding: 14px;
+  border-radius: 7px;
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  text-align: start;
+  background-color: white;
+}
+main .sec5 .sec55 .zz .secz h1 {
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  justify-content: start;
+}
+main .sec5 .sec55 .zz .secz p {
+  color: gray;
+}
+main .imgs {
+  width: 90%;
+  height: 66px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .imgs img {
+  width: 14%;
+  height: 66px;
+}
+main .endsec {
+  width: 90%;
+}
+main .endsec .zc {
+  width: 100%;
+}
+main .endsec .zs {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 14px;
+}
+main .endsec .zs img {
+  width: 100%;
+}
+main .endsec .zs h1 {
+  font-size: 21px;
+}
+main .endsec .zs .btns button {
+  width: 66px;
+  height: 33px;
+  border: none;
+  transition: background-color 0.4s ease;
+  background-color: rebeccapurple;
+  color: white;
+  font-weight: 600;
+  font-size: 10px;
+  padding: 7px;
+}
+main .endsec .zs .btns button:hover {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  border: 1px solid rebeccapurple;
+}
+main .endsec .zs p {
+  color: gray;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+footer .imgz {
+  width: 100%;
+  height: auto;
+}
+footer .r22 {
+  position: absolute;
+}
+footer .r22 p {
+  color: white;
+}
+footer .r22 h1 {
+  color: white;
+  font-size: 24px;
+}
+footer .r22 .divz {
+  width: 90%;
+}
+footer .r22 .divz .endz .endzz {
+  width: 100%;
+}
+footer .r22 .divz .endz .endzz img {
+  width: 21%;
+  padding: 3px;
+}
+footer .r22 .divz .btnz {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+}
+footer .r22 .divz .btnz button {
+  transition: background-color 0.4s ease;
+  background-color: rgb(153, 0, 255);
+  width: 33%;
+  border-radius: 21px;
+  border: none;
+  color: white;
+}
+footer .r22 .divz .btnz button:hover {
+  background-color: rgb(111, 0, 255);
+}
+footer .r22 .divz .btnz input {
+  width: 100%;
+  border-radius: 21px;
+  padding: 7px;
+  border: none;
+}
+
+@media only screen and (max-width: 991px) {
+  main .sec5 img {
+    height: 800px;
+  }
+  footer .r22 .divz .btnz button {
+    width: 66%;
+    height: 33px;
+  }
+  footer .r22 .divz .btnz button i {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  header {
+    height: 800px;
+  }
+  header .img1 {
+    height: 800px;
+  }
+  header .hdr {
+    flex-direction: column;
+  }
+  header .hdr .hdr1 h1 {
+    font-size: 21px;
+  }
+  main .sec5 img {
+    height: 1400px;
+  }
+  footer .r22 .divz .btnz {
+    flex-direction: column;
+  }
+  footer .imgz {
+    height: 500px;
+  }
+}
